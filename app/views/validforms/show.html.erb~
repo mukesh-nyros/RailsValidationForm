@@ -1,0 +1,31 @@
+<div class="display">
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @validform.Username %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @validform.Password %>
+</p>
+
+<p>
+  <strong>Dateofbirth:</strong>
+  <%= @validform.DateofBirth %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @validform.Email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @validform.Phone %>
+</p>
+
+<%= link_to 'Edit', edit_validform_path(@validform) %> |
+<%= link_to 'Back', validforms_path %>
+</div>

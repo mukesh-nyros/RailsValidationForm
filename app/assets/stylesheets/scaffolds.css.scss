@@ -1,0 +1,143 @@
+body {
+ background-color: Azure;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  width:100%;
+}
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: BlueViolet;
+text-decoration:none;
+border-radius:6px;
+background-color: pink;
+padding:5px;
+  &:visited {
+    color: #666;
+  }
+  &:hover {
+    color: #fff;
+    background-color: RoyalBlue;
+  }
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+
+.view
+{
+
+width:300px;
+margin:0 auto;
+-webkit-box-shadow:0 0 20px #ccc;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ffffff), color-stop(1.0, Olive));
+padding-left:25px;
+border-radius:15px;
+height:370px;
+}
+
+h1 
+{
+color:Lime;
+height:40px;
+text-align:center;
+line-height:40px;
+box-shadow: inset 7px 1px 25px -10px #065952,-2px 0px 8px 1px #242424;
+}
+thead th
+{
+color:blue;
+
+padding:5px;
+}
+tbody td
+{
+text-align:center;
+padding:5px;
+color:OrangeRed;
+}
+
+strong
+{
+color:blue;
+padding-left:10px;
+}
+
+
+input:focus    {
+    -webkit-box-shadow:0 0 20px #ccc;
+    -webkit-transform: scale(1.05);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ffffff), color-stop(1.0, #eaeaea));
+     border: 1px solid #cacaca;
+     -webkit-transition: all 0.5s ease-in-out;
+     background-color:#fff;
+color:#fb5e53
+}
+
+.display
+{
+box-shadow: inset 7px 1px 25px -10px black,-2px 0px 8px 1px green;
+padding:5px;
+margin:0 auto;
+width:250px;
+height:250px;
+}
+
+.main
+{
+box-shadow: inset 7px 1px 25px -10px black,-2px 0px 8px 1px green;
+padding:5px;
+margin:0 auto;
+width:700px;
+}
+
+

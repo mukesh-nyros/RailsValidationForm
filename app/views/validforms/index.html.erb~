@@ -1,0 +1,34 @@
+<h1>Listing validforms</h1>
+<div class="main">
+<table>
+  <thead>
+    <tr>
+      <th>Username</th>
+      <th>Password</th>
+      <th>Dateofbirth</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @validforms.each do |validform| %>
+      <tr>
+        <td><%= validform.Username %></td>
+        <td><%= validform.Password %></td>
+        <td><%= validform.DateofBirth %></td>
+        <td><%= validform.Email %></td>
+        <td><%= validform.Phone %></td>
+        <td><%= link_to 'Show', validform %></td>
+        <td><%= link_to 'Edit', edit_validform_path(validform) %></td>
+        <td><%= link_to 'Destroy', validform, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Validform', new_validform_path %>
+</div>
